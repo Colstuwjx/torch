@@ -8,12 +8,12 @@ It can be integrated with prometheus well, and make prometheus horizontal scalab
 
 torch's whole architecture shows below:
 
-[torch-arch](https://github.com/Colstuwjx/torch/blob/master/arch/torch.png)
+![](https://github.com/Colstuwjx/torch/blob/master/arch/torch.png)
 
 ### Torch SD
 
 Each torch node can act as a SD for the backend prometheus instance, it maintains the
-hashing with upstreams, and tells the prometheus instance which targets it need to scrape.
+hashing strategy with upstreams, and tells the prometheus instance which targets it need to scrape.
 
 ### Maintain the instance status
 
